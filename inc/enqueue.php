@@ -6,7 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 function mp_enqueue_script() {
 
-//  I just added the line again
+// I just added the line again
 
 wp_enqueue_style( 'style-name', get_stylesheet_uri() );
 wp_register_style( 'plugins-name', get_template_directory_uri() .'/assets/css/plugins.min.css', array(), '20130608');
